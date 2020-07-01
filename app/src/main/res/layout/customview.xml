@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ecname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eczane Adı"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/ectel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefon"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/ecfax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fax"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/ecsgk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sgk"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/ecadres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adres"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/haritabutton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#9C27B0"
+        android:text="Haritada Göster"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:onClick="btnclickhandler"
+        android:focusable="true"/>
+
+</LinearLayout>
